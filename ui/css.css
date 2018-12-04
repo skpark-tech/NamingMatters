@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+    background-color: white;
+	text-align: center;
+	font-size: 30px;
+	font:"Baskerville Old Face"
+	
+}
+h1 {
+    color: black;
+	font-variant:normal
+}
+p {
+    color: black;
+	margin-top: 5px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+/*Form Styling*/.
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+	background-image: url(search icon.png);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: orange;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Table Formatting */
+table {
+    font-family: arial, sans-serif;
+    width: 100%;
+}
+
+td, th {
+    border: 4px solid black;
+    text-align: left;
+    padding: 5px;
+}
+
+tr{
+    background-color: lightgrey;
+}
+
+col{
+	width: 130px
+}
+
+
+/* Header Formatting */
+.header {
+  overflow: hidden;
+  background-color: white;
+  padding: 20px 20px;
+}
+
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 40px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header-right {
+  float: right;
+}
