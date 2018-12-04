@@ -1,0 +1,75 @@
+<!doctype html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>results</title>
+
+<!--css-->
+<head>
+<link href="css.css" rel="stylesheet" type="text/css" media="screen" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<!--header-->
+<div class="header">
+  <a href="https://www.namingmatters.com/" class="logo"> <img src ="nmlogo.png"> </a>
+  <div class="header-right">
+    <a class="active" href="index.html.html">Home</a>
+    
+  </div>
+</div>
+
+<body>
+<h1> Search Results </h1>
+<br>
+<p style="text-align:left;"> Search Entities for:
+
+<!--add javascript function for get method from previous page and implement to display text-->
+<script>
+function getUrlVars() {
+var vars = {};
+var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+vars[key] = value;
+});
+return vars;
+}
+
+var first = getUrlVars()["Company"];
+var second = getUrlVars()["State"];
+
+document.write(" ", first);
+</script>
+
+<br>
+In Region: 
+
+<script> document.write(" ", second, " ") </script>
+<table>
+	<col width="130">
+	<col width="80">
+    <col width="80">
+    
+	<tr>
+		<th> Entity </th>
+        <th> URL </th>
+        <th> Snippet </th>
+    </tr>
+ 	<tr>
+    	<td> amazon
+        <td>
+https://www.engadget.com/2018/11/26/amazon-opens-internal-machine-learning-training/</td>
+    	<td>Amazon announced today that it's making the machine learning courses it uses to train its engineers available to everybody for free. The coursework is tailored to four major groups -- developers, data scientists, data platform engineers and business professionals -- and it offers both foundational level lessons as well as more advanced instruction</td>
+ 	</tr>
+    <tr>
+    	<td> amazon
+        <td>
+https://lifehacker.com/how-to-get-tickets-for-an-early-screening-of-aquaman-1830537153/</td>
+    	<td>Amazon announced this week that it will be holding a set of early screenings of Aquaman for Amazon Prime members six days ahead of the movie’s official release date. The promotion, a partnership between Warner Bros., Amazon, and ticket-seller Atom, the movie will be screened at 1,000 theaters across the U.S. at 7pm on December 15th, according to The Verge.</td>
+ 	</tr>    
+    </tr>
+</table>
+</body>
+
+</p>
+</html>
+
